@@ -300,6 +300,13 @@ In the blog section, the two-column layout changes to a single-column layout whe
 
 @media screen and (max-width: 1000px) {
 
+  .container {
+    padding: 0 20px;
+  }
+
+  #sidebar {
+  width: 200px;
+  } 
 
 }
 
@@ -307,7 +314,6 @@ In the blog section, the two-column layout changes to a single-column layout whe
 
   .container {
     width: 100%;
-    padding: 0 20px;
   }
 
   #hero h2 {
